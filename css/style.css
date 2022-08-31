@@ -100,7 +100,8 @@ footer {
 }
 
 .about,
-.schedule {
+.schedule,
+.author {
     background-color: #eee;
 }
 
@@ -137,6 +138,12 @@ footer {
     border: 3px solid var(--color2);
 } */
 
+.learning h5 {
+    padding: 1em;
+    border: 3px solid var(--color1);
+    margin-top: 1em;
+}
+
 .accordion-button:not(.collapsed) {
     color: var(--bs-white);
     background-color: var(--color2);
@@ -145,4 +152,27 @@ footer {
 
 .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.author {
+    padding-bottom: 0;
+}
+
+.author-img {
+    max-width: 260px;
+}
+
+.reviews img {
+    border-radius: 50%;
+    border: var(--color1) solid 1px;
+}
+
+.reviews-content {
+    max-width: 40%;
+}
+
+.line {
+    width: 20%;
+    height: 0;
+    border: var(--color2) solid 2px;;
 }
